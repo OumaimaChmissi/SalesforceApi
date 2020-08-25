@@ -12,9 +12,9 @@ app = Flask(__name__)
 @app.route('/<id>')
 def hello_world(id):
    sf = Salesforce(
-   username='targetrecruitsalesforce@talan.com', 
-   password='oumawejouma11', 
-   security_token='CQxJHyrAmFoBXBsI31XNnoYD')
+   username= "", 
+   password='', 
+   security_token='') # Add your information here
    sessionId = sf.session_id
    instance = sf.sf_instance
    print ('sessionId: ' + sessionId)
