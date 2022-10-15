@@ -9,9 +9,9 @@ import json
 
 
 sf = Salesforce(
-username='targetrecruitsalesforce@talan.com', 
-password='oumawejouma1', 
-security_token='P6Hzo0iT1QZdApEdQ6joV9ZrZ')
+username='TYPE YOUR USERNAME', 
+password='TYPE YOUR PASSWORD ', 
+security_token='TYPE YOUR TOKEN ')
 sessionId = sf.session_id
 instance = sf.sf_instance
 print ('sessionId: ' + sessionId)
